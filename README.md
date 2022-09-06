@@ -21,3 +21,62 @@ Objetivos:
 - [ ] Unir as tabelas de dados de acordo com os IDs.
 - [ ] Traduzir as colunas.
 - [ ] Exportar a tabela de dados unidos como csv.
+
+**1.** Primeiramente foi instalado o SGBD MySQL Workbench e importado o database dump, disponibilizado pela Alura Cash [aqui](https://github.com/Mirlaa/Challenge-Data-Science-1ed/tree/main/Dados/dumps).
+- [X] Instalar MySQL Workbench e importar **database dump**.
+
+**2.** A segunda tarefa fiu entender o conjuntos de dados disponibilizados. São 4 tabelas que são explicadas abaixo:
+
+• **dados_mutuarios:** Tabela contendo os dados pessoais de cada solicitante;
+
+• **emprestimos:** Tabela contendo as informações do empréstimo solicitado;
+
+• **historicos_banco:** Histório de emprétimos de cada cliente;
+
+• **id:** Tabela que relaciona os IDs de cada informação da pessoa solicitante.
+
+- [X] Entender quais informações o conjunto de dados possui.
+
+**3.** A terceira etapa solicita a análise dos tipos de dados. Neste [link](https://github.com/Mirlaa/Challenge-Data-Science-1ed/tree/main/Dados) foi fornecido o dicionário da Alura Cash, porém os tipos não foram especificados. Abaixo representei em tabelas os tipos de cada coluna do dataset:
+
+### dados_mutuarios
+
+| Feature | Tipo |
+| --- | --- |
+|`person_id`|**VARCHAR(13)**|
+| `person_age` |**INT**|
+| `person_income` |**FLOAT**|
+| `person_home_ownership` |**VARCHAR(20)**|
+| `person_emp_length` |**INT**|
+
+### emprestimos
+
+| Feature | Tipo |
+| --- | --- |
+|`loan_id`|**VARCHAR(13)**|
+| `loan_intent` |**VARCHAR(20)**|
+| `loan_grade` | **VARCHAR(10)** |
+| `loan_amnt` | **INT** |
+| `loan_int_rate` | **FLOAT** |
+| `loan_status` | **BIT** |
+| `loan_percent_income` | **FLOAT** |
+
+
+### historicos_banco
+
+| Feature | Tipo |
+| --- | --- |
+|`cb_id`|**VARCHAR(13)**|
+| `cb_person_default_on_file` |**BINARY**|
+| `cb_person_cred_hist_length` |**INT**|
+
+### id
+
+| Feature | Tipo |
+| --- | --- |
+|`person_id`|**VARCHAR(13)**|
+|`loan_id`|**VARCHAR(13)**|
+|`cb_id`|**VARCHAR(13)**|
+
+- [X] Analisar quais os tipos de dados.
+
