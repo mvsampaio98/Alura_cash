@@ -106,6 +106,8 @@ UPDATE nome_da_tabela SET nome_da_coluna ='registro_em_ptbr' WHERE nome_da_colun
 
 - [X] Unir as tabelas de dados de acordo com os IDs.
 
-**8.** A tabela foi exportada no formato .CSV para ser utilizada na semana seguinte.
+**8.** A tabela foi exportada no formato [.CSV](https://raw.githubusercontent.com/mvsampaio98/Alura_cash/main/data/analise_de_risco.csv) para ser utilizada na semana seguinte.
 
 - [X] Exportar a tabela de dados unidos como csv.
+
+## Semana 2
