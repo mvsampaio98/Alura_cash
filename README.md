@@ -16,9 +16,9 @@ Objetivos:
 - [X] Instalar MySQL Workbench e importar **database dump**.
 - [X] Entender quais informações o conjunto de dados possui.
 - [X] Analisar quais os tipos de dados.
-- [ ] Verificar quais são as inconsistências nos dados.
-- [ ] Corrigir as inconsistências nos dados.
-- [ ] Unir as tabelas de dados de acordo com os IDs.
+- [X] Verificar quais são as inconsistências nos dados.
+- [X] Corrigir as inconsistências nos dados.
+- [X] Unir as tabelas de dados de acordo com os IDs.
 - [X] Traduzir as colunas.
 - [ ] Exportar a tabela de dados unidos como csv.
 
@@ -93,3 +93,15 @@ UPDATE nome_da_tabela SET nome_da_coluna ='registro_em_ptbr' WHERE nome_da_colun
 ```
 
 - [X] Traduzir as colunas.
+
+**5.** Algumas da insconsistências de dados foram valores em branco nas colunas de ID.
+
+- [X] Verificar quais são as inconsistências nos dados.
+
+**6.** Essas insconsistências foram removidas, visto que sem o ID não seria possível fazer EDA desses registros.
+
+- [X] Corrigir as inconsistências nos dados.
+
+**7.** Para unificar as tabelas foi utilizado o comando INNER JOIN, no arquivo .SQL tem todos os detalhes de como foi feito tanto o tratamento quanto a união das tabelas.
+
+- [X] Unir as tabelas de dados de acordo com os IDs.
