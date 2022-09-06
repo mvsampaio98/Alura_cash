@@ -43,40 +43,39 @@ Objetivos:
 
 | Feature | Tipo |
 | --- | --- |
-|`person_id`|**VARCHAR(13)**|
+|`person_id`|**VARCHAR(16)**|
 | `person_age` |**INT**|
-| `person_income` |**FLOAT**|
-| `person_home_ownership` |**VARCHAR(20)**|
-| `person_emp_length` |**INT**|
+| `person_income` |**INT**|
+| `person_home_ownership` |**VARCHAR(8)**|
+| `person_emp_length` |**DOUBLE**|
 
 ### emprestimos
 
 | Feature | Tipo |
 | --- | --- |
-|`loan_id`|**VARCHAR(13)**|
-| `loan_intent` |**VARCHAR(20)**|
-| `loan_grade` | **VARCHAR(10)** |
+|`loan_id`|**VARCHAR(16)**|
+| `loan_intent` |**VARCHAR(32)**|
+| `loan_grade` | **VARCHAR(1)** |
 | `loan_amnt` | **INT** |
-| `loan_int_rate` | **FLOAT** |
-| `loan_status` | **BIT** |
-| `loan_percent_income` | **FLOAT** |
+| `loan_int_rate` | **DOUBLE** |
+| `loan_status` | **INT** |
+| `loan_percent_income` | **DOUBLE** |
 
 
 ### historicos_banco
 
 | Feature | Tipo |
 | --- | --- |
-|`cb_id`|**VARCHAR(13)**|
-| `cb_person_default_on_file` |**BINARY**|
+|`cb_id`|**VARCHAR(16)**|
+| `cb_person_default_on_file` |**VARCHAR(1)**|
 | `cb_person_cred_hist_length` |**INT**|
 
 ### id
 
 | Feature | Tipo |
 | --- | --- |
-|`person_id`|**VARCHAR(13)**|
-|`loan_id`|**VARCHAR(13)**|
-|`cb_id`|**VARCHAR(13)**|
+|`person_id`|**VARCHAR(16)**|
+|`loan_id`|**VARCHAR(16)**|
+|`cb_id`|**VARCHAR(16)**|
 
 - [X] Analisar quais os tipos de dados.
-
