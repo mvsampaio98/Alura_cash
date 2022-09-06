@@ -13,13 +13,13 @@ Desse modo, você solicita um conjunto de dados que contenha as informações de
 ## Semana 1
 
 Objetivos:
-- [ ] Instalar MySQL Workbench e importar **database dump**.
-- [ ] Entender quais informações o conjunto de dados possui.
-- [ ] Analisar quais os tipos de dados.
+- [X] Instalar MySQL Workbench e importar **database dump**.
+- [X] Entender quais informações o conjunto de dados possui.
+- [X] Analisar quais os tipos de dados.
 - [ ] Verificar quais são as inconsistências nos dados.
 - [ ] Corrigir as inconsistências nos dados.
 - [ ] Unir as tabelas de dados de acordo com os IDs.
-- [ ] Traduzir as colunas.
+- [X] Traduzir as colunas.
 - [ ] Exportar a tabela de dados unidos como csv.
 
 **1.** Primeiramente foi instalado o SGBD MySQL Workbench e importado o database dump, disponibilizado pela Alura Cash [aqui](https://github.com/Mirlaa/Challenge-Data-Science-1ed/tree/main/Dados/dumps).
@@ -79,3 +79,17 @@ Objetivos:
 |`cb_id`|**VARCHAR(16)**|
 
 - [X] Analisar quais os tipos de dados.
+
+**4.** Optei por traduzir as colunas primeiro antes de trata-las usando o seguinte comando:
+
+```
+ALTER TABLE nome_da_tabela RENAME COLUMN nome_antigo_da_coluna TO nome_novo_da_coluna;
+```
+
+Alguns registros das tabelas estão em inglês. Optei por traduzi-las também.
+
+```
+UPDATE nome_da_tabela SET nome_da_coluna ='registro_em_ptbr' WHERE nome_da_coluna = 'registro_em_ingles';
+```
+
+- [X] Traduzir as colunas.
