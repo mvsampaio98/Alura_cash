@@ -20,7 +20,7 @@ Objetivos:
 - [X] Corrigir as inconsistências nos dados.
 - [X] Unir as tabelas de dados de acordo com os IDs.
 - [X] Traduzir as colunas.
-- [ ] Exportar a tabela de dados unidos como csv.
+- [X] Exportar a tabela de dados unidos como csv.
 
 **1.** Primeiramente foi instalado o SGBD MySQL Workbench e importado o database dump, disponibilizado pela Alura Cash [aqui](https://github.com/Mirlaa/Challenge-Data-Science-1ed/tree/main/Dados/dumps).
 - [X] Instalar MySQL Workbench e importar **database dump**.
@@ -102,6 +102,10 @@ UPDATE nome_da_tabela SET nome_da_coluna ='registro_em_ptbr' WHERE nome_da_colun
 
 - [X] Corrigir as inconsistências nos dados.
 
-**7.** Para unificar as tabelas foi utilizado o comando INNER JOIN, no arquivo .SQL tem todos os detalhes de como foi feito tanto o tratamento quanto a união das tabelas.
+**7.** Para unificar as tabelas foi utilizado o comando INNER JOIN, no [arquivo .SQL](https://github.com/mvsampaio98/Alura_cash/blob/main/dumps/analise_risco_tratamento.sql) tem todos os detalhes de como foi feito tanto o tratamento quanto a união das tabelas.
 
 - [X] Unir as tabelas de dados de acordo com os IDs.
+
+**8.** A tabela foi exportada no formato .CSV para ser utilizada na semana seguinte.
+
+- [X] Exportar a tabela de dados unidos como csv.
