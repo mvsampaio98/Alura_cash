@@ -111,3 +111,7 @@ UPDATE nome_da_tabela SET nome_da_coluna ='registro_em_ptbr' WHERE nome_da_colun
 - [X] Exportar a tabela de dados unidos como csv.
 
 ## Semana 2
+
+Na segunda semana, foi proposto fazer uma limpeza nos dados para remover possíveis outliers. Em seguida, elaborar modelos de ML capaz de prever se o cliente era adimplente ou inadimplente, comparar as diversas técnicas utilizadas e escolher o modelo que melhor generalizava nosso problema. Por último, o modelo foi otimizado e exportado para ser utilizado em dados futuros desconhecidos.
+
+Toda essa semana foi explicada e desenvolvida [neste arquivo Jupyter Notebook](https://github.com/mvsampaio98/Alura_cash/blob/main/Alura_Cash.ipynb)
